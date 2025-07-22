@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Validator</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        input, button {
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        #message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>🔐 OTP Generator & Validator</h2>
+    <button onclick="sendOtp()">Send OTP</button><br>
+
+    <input type = "text" id = "otpInput" placeholder="Enter the OTP"></input><br>
+    <button onclick="validateOtp()">Validate OTP</button>
+
+    <p id = "message"></p>
+
+    <script src = "otpgenerator.js"></script>
+</body>
+</html>

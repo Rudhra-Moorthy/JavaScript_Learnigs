@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Greeting App</title>
+</head>
+<body>
+  <h1>Smart Greeting App</h1>
+
+  <label for="name">Enter your name:</label>
+  <input type="text" id="name" placeholder="e.g., Rudhra" />
+
+  <label for="time">Select time of day:</label>
+  <select id="time">
+    <option value="morning">Morning</option>
+    <option value="afternoon">Afternoon</option>
+    <option value="evening">Evening</option>
+  </select>
+
+  <button onclick="greetUser()">Greet Me</button>
+
+  <h2 id="greeting"></h2>
+
+  <script>
+    function greetUser(name) {
+    const name = document.getElementById("name").value;
+    let time = document.getElementById("time").value;
+    var message;
+
+    if (!name) {
+        alert("Please enter your name");
+    }
+    else if (time === "morning") {
+        message = `Good morning, ${name}! ☀️`;
+    }
+    else if (time === "afternoon") {
+        message = `Good afternoon, ${name}! 🌤️`;
+    }
+    else {
+        message = `Good evening, ${name}! 🌙`;
+    }
+
+    document.getElementById("greeting").innerHTML = message;
+}
+  </script>
+  </script>
+</body>
+</html>

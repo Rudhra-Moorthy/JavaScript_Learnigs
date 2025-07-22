@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧬 Bio Generator</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        input, button {
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 16px;
+            display: block;
+        }
+
+        #bio {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <h2>📘 Personal Bio Generator</h2>
+
+    <label>Your name: </label>
+    <input type = "text" id = "name"/><br>
+
+    <label>Your age: </label>
+    <input type = "number" id = "age"/><br>
+
+    <label>Your profession: </label>
+    <input type = "text" id = "profession"/><br>
+
+    <label>Your hobby</label>
+    <input type = "text" id = "hobby"/><br>
+
+    <button onclick = "generateBio()">Generate bio</button>
+    <div id = "bio"></div>
+
+    <script src = "bio-generator.js"></script>
+    
+</body>
+</html>
