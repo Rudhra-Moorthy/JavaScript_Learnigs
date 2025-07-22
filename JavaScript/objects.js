@@ -1,4 +1,4 @@
-/* let person = {
+let person = {
     "user name": "Rudhra",
     age: 21,
     hairColour: "Black",
@@ -12,10 +12,10 @@ console.log(person);
 console.log(person["user name"]);
 console.log(person["age"]);
 console.log(person.eat);
-console.log(person["shoes"][person.shoes.length - 1]); */
+console.log(person["shoes"][person.shoes.length - 1]);
 
 // Shorthand Assigned Property 
-/* let name = "Deva";
+let name = "Deva";
 let age = 21;
 let person = {
     name,
@@ -23,10 +23,10 @@ let person = {
 }
 console.log(person);
 console.log(person.name);
-console.log(person.age); */
+console.log(person.age);
 
 // Dynamic Property
-/* let name = "Hari";
+let name = "Hari";
 let age = 22;
 let dynamicProp = "employeeId";
 let person = {
@@ -37,21 +37,21 @@ let person = {
 }
 
 console.log(person['dynamicProp']);
-console.log(person[dynamicProp]); */
+console.log(person[dynamicProp]);
 
 // Mini challenge: 1
-/* createStudentProfile("Rudhra", 22, "JavaScript");
+createStudentProfile("Rudhra", 22, "JavaScript");
 
-{
+/*{
   name: "Rudhra",
   age: 22,
   skill: "JavaScript",
   joined_2025: "Yes",
   skill_JavaScript: "active"
-}
-*/
+} */
 
-/* function createStudentProfile(name, age, skill) {
+
+function createStudentProfile(name, age, skill) {
     let year = new Date().getFullYear(); //  Get current year
     const profile = {
         name,                          // -> ShortHand
