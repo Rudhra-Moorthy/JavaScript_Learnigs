@@ -1,6 +1,6 @@
 // Generator function 
 
-/* function* generatorFunction() {
+function* generatorFunction() {
     yield "First val";
     yield "second val";
     yield "Third val";
@@ -9,7 +9,7 @@
 let generator = generatorFunction();
 console.log(generator.next().value);
 console.log(generator.next().value);
-console.log(generator.next().value); */
+console.log(generator.next().value);
 /* console.log(generator.next().value); */
 
 function* idGenerator() {
