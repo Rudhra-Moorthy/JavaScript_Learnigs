@@ -2,7 +2,7 @@
 
 // 1. var keyword -> function scope (It is accessed anywhere within the function)
 
-/* function varFunctionScope() {
+function varFunctionScope() {
     var name = "Rudhra";
     function innserfunction() {
         console.log(`Hi ${name}, you are inside inner function`);
@@ -11,9 +11,9 @@
     console.log(`Hi ${name}, you are at outer function`);
 }
 
-varFunctionScope(); */
+varFunctionScope(); 
 
-/* // 2. let & const keyword -> block scoped(It is accessed within the blocks({}))
+// 2. let & const keyword -> block scoped(It is accessed within the blocks({}))
 {
     let a = 10;
     const b =20;
@@ -22,7 +22,7 @@ varFunctionScope(); */
 }
 
 console.log(a); // -> undefined
-console.log(b);// -> Undefined */
+console.log(b);// -> Undefined 
 
 // Global Scope (var)
 
