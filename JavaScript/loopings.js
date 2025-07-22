@@ -1,15 +1,15 @@
 // For-loop
 
-/* for(let i = 1; i <= 10; i++){
+for(let i = 1; i <= 10; i++){
     console.log(i);
-}; */
+};
 
 // While-loop
-/* let val = 10;
+let val = 10;
 while(val > 0) {
     console.log(val);
     val--;
-} */
+}
 
 // To find the sum of the Number -> num = 34647 -> 24
 let num = 34647;
