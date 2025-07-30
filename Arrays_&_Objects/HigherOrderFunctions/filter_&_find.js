@@ -28,19 +28,19 @@ const students = [
     { id: 106, name: "Manoj", grade: "C", marks: 55 },
 ];
 
-// use Use filter() to get all students who got grade "A".
+// Grade A students
 const gradeA = students.filter(student => student.grade === "A");
-console.log(gradeA);
+console.log("Grade A students:", gradeA);
 
-// Students who scored mark less than 60
+// First student less than 60 marks
 const lessThan60 = students.find(student => student.marks < 60);
-console.log(lessThan60);
+console.log("Mark < 60:", lessThan60);
 
-// Students with marks greater than or equal to 75
+// Students marks >= 75
 const greaterThan75 = students.filter(student => student.marks >= 75);
-console.log(greaterThan75);
+console.log("Mark >= 75:", greaterThan75);
 
-// Find the student whose name is "Radha"
+// Find the student named "Radha"
 const studentNameMatch = students.find(student => student.name === "Radha") || "Not Found";
-console.log(studentNameMatch);
+console.log("search for `Radha`:", studentNameMatch);
 
