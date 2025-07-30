@@ -1,10 +1,10 @@
-// Uncurrying function 
+// UnCurrying function 
 
 function add(a, b, c) {
     return a + b + c;
 }
 
-console.log("Uncurring Function", add(1,2,3));
+console.log("UnCurring Function", add(1,2,3));
 
 // Currying function 
 
@@ -18,7 +18,7 @@ function add1(a) {
 
 console.log("Currying function", add1(10)(20)(30));  // -> Currying function 60
 
-// Slef Invoked Function
+// Self Invoked Function
 
 (function(a,b) {
     console.log("I am a self invoked function" , (a + b)); // -> I am a self invoked function 15

@@ -1,7 +1,7 @@
 // List of students
 
 const students = [
-    { name: "Rudhra", score: 92 },
+    { name: "Amir", score: 92 },
     { name: "Steve", score: 85 },
     { name: "Jarvis", score: 97 },
     { name: "Natasha", score: 45 },
